@@ -1,7 +1,7 @@
 {
   "name": "node-unit-conversion",
   "version": "0.0.4",
-  "description": "Extensible unit conversion for NodeJS",
+  "description": "Unit conversion for NodeJS",
   "main": "index.js",
   "scripts": {
     "test": "nodeunit"
