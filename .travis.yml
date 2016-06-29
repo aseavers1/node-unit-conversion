@@ -1,9 +1,9 @@
 language: nodejs
 node_js:
-  - "6"
-  - "4"
-  - "0.12"
-  - "0.10"
+- '6'
+- '4'
+- '0.12'
+- '0.10'
 before_script:
 - npm install -g nodeunit
 script: nodeunit
@@ -11,5 +11,5 @@ deploy:
   provider: npm
   email: teodormatis@gmail.com
   api_key:
-    secure: "i6ZzmMDglJbvJO8ux9nu4OACkS/op6S2GKMvQ+jNPo7QlY+3yp0IvZdUadZJqVaVSKhXcanU7KzpMc+Kj5dOuEJlb0ij4UDNvbgLWNgyBzTbdW3ZvhyDR0rqt3WQaXMbaqSugd3uJckyDNO+jQHYVYiuSwinpP+3zD+2sQXB8pkpJ05alH5Gk3KPj50B6+5K5JRacA5nFucmJmiNscnN0EhbK5EhIr5ZMMWnN/RBsgZKpDcdKMaBGKhCxjd2DqIrAqeVKF3BdX/ksBSATU7cE0vGkHyWF122ucXy9yTMcI0GTNqFGQYLGM5IvIrj6svzmtJmH9Rvm4cFJqnFWJAlqfmB/l9PqrLT+JCHsvIuENp0tuvi2TseXK4lQbe0nBNoE56r7o95a4APzepppp5k99W1hz/JMjd2hxmJ58ioSQATC8woIkpNgcE7JVcH1lcXAY+iBWfT//jIUOUWUIRp8SwniDerHI1b16peBueMmQdofnfyFo8DezsqwgzfoPELn/tsemZgQwRuS4cx2L00Op7xurKBlM0DKx+m/0X6H7vTQs6YK961RzhQ4SObiU3d/1bfg/TrFWPZNqr985YaUlR1xetRbcx5jS7ot/Rqz4C6hKOyekQPxQ7FXChuUFyukahhARcvQco0xDuV4v24SusaKmjlfJRdvI5ns1aFJAk="
+    secure: csJND1mM7NnisYtRAZhM1wUQQfKvwAeF8kNoCKVImuRyNNU14sbrrEv4ltJhwvvAEYf/VtxmxXRNsdPkjImcLxFkg3awl7N1kSup7r7IDxyfF1uBVUbHIF/Q/HA3V69qsq8YxIgrd0PyhDrdQzzAV6zAP3t8vIcrEh1O2jbNyVkCmmCEEofglazj5x34s+s8JPo7elRqCn2tXyWwsZWK6sW++Qzp+oh4nizboI4y8AsGfEo2MjMK4WZO2VmNuNrptfuJZK5r7TtWoxO4rccrmcc6/bbzeIZfJ2ZA4L3YC65PGK6MUWLL8z3A2Bnv3S08eGDnjLrg59HO0E6Axh5bbaQ+EoiCYhvKJeS3jBwwD7yrOFnZJZT81mMWFF9bF1W1gX4QcfpQF/1ixtid25/f/96Y7jijrEppkXZgnrdnX7Ii1qUs2AlN2WkAzk+AImeiy0Nvd2orxtlAby7m/WFHBo2xsjInNXj0nV+pzN+4s2BzW6VFkEJySrcyK9byTB/1JHE/zza6PD3xQR3ebusJHjII7HrUd5SFqD358vam/UrqmIoWYrPxaUs/1S7AokrCTArwig6YxpJ/sp7C2drgO1VaKCqmDrNIZVaDVpkDR3BdQrCsYf5hGb1YL84eqQTKtKTISG5HNAxi5OVtovwMel+LCHAFhVrITzF7bvclCBU=
   skip_cleanup: true
