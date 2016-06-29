@@ -8,3 +8,7 @@ before_script:
   - npm install -g nodeunit
 
 script: nodeunit
+
+deploy:
+  provider: npm
+  api_key: "c54290fb-b7f1-450c-8723-b8eaa21d2e14"
