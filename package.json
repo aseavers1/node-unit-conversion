@@ -1,0 +1,23 @@
+{
+  "name": "node-unit-conversion",
+  "version": "0.0.1",
+  "description": "Unit conversion for NodeJS\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[Extensible unit conversion for NodeJS",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/overburn/node-unit-conversion.git"
+  },
+  "keywords": [
+    "units",
+    "nodejs"
+  ],
+  "author": "Teodor Matis <teodormatis@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/overburn/node-unit-conversion/issues"
+  },
+  "homepage": "https://github.com/overburn/node-unit-conversion#readme"
+}
