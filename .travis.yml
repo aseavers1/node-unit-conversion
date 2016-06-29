@@ -11,4 +11,5 @@ script: nodeunit
 
 deploy:
   provider: npm
+  email: "teodormatis@gmail.com"
   api_key: "c54290fb-b7f1-450c-8723-b8eaa21d2e14"
