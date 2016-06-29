@@ -4,7 +4,7 @@
   "description": "Unit conversion for NodeJS",
   "main": "index.js",
   "scripts": {
-    "test": "nodeunit"
+    "test": "nodeunit test"
   },
   "repository": {
     "type": "git",
