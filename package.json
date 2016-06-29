@@ -1,10 +1,10 @@
 {
   "name": "node-unit-conversion",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Extensible unit conversion for NodeJS",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "nodeunit"
   },
   "repository": {
     "type": "git",
@@ -19,5 +19,8 @@
   "bugs": {
     "url": "https://github.com/overburn/node-unit-conversion/issues"
   },
-  "homepage": "https://github.com/overburn/node-unit-conversion#readme"
+  "homepage": "https://github.com/overburn/node-unit-conversion#readme",
+  "devDependencies": {
+    "gulp-nodeunit": "0.0.5"
+  }
 }
