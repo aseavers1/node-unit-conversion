@@ -31,13 +31,15 @@ Units are being added. Currently the supported units are:
 	celsius, fahrenheit, kelvin, rankine
 ```
 
+
 *UK Imperial*
 
 ```
 To be implemented
 ```
 
-*US Imperial
+
+*US Imperial*
 
 ```
 To be implemented
