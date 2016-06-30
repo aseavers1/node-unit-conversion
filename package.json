@@ -20,7 +20,4 @@
     "url": "https://github.com/overburn/node-unit-conversion/issues"
   },
   "homepage": "https://github.com/overburn/node-unit-conversion#readme",
-  "devDependencies": {
-    "gulp-nodeunit": "0.0.5"
-  }
 }
