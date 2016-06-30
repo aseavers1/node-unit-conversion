@@ -44,11 +44,16 @@ module.exports = {
 		test.done();
 	},
 
-	'si-temperatures' : function(test) {
+	'temperatures' : function(test) {
 		test.equal(convert(39).from('celsius').to('fahrenheit'), 102.2);
 		test.equal(convert(150).from('fahrenheit').to('kelvin'), 338.7055555556);
 		test.equal(convert(40).from('rankine').to('celsius'), -250.9277777778);
 
+		test.done();
+	},
+
+	'uk-imp-lengths': function(test) {
+		test.equal(convert(10).from('uk_inch').to('uk_foot'), 0.8333333333);
 		test.done();
 	}
 }

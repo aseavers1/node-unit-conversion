@@ -27,17 +27,16 @@ Units are being added. Currently the supported units are:
 
 *SI*
 ```
-
-	metre, gram, second, minute, hour, day, year, ampere, candela, mole - With magnitudes (centi, kilo, etc)
+	metre, gram, second, minute, hour, day, year, ampere, candela, mole
+	(with magnitudes - centi, kilo, mega, etc)
 
 	celsius, fahrenheit, kelvin, rankine
 ```
 
-
 *UK Imperial*
 
 ```
-To be implemented
+ uk_foot, uk_thou, uk_inch, uk_yard, uk_chain, uk_furlong, uk_mile, uk_league
 ```
 
 
