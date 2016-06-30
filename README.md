@@ -17,8 +17,8 @@ You just need to call the module with the value you want converted, then pipe th
 
 ```javascript
 	var convert = require('node-unit-conversion');
-	var result = convert(100).from('meter').to('centimeter');
-	var sameResult = convert(100).to('centimeter').from('meter');
+	var result = convert(100).from('metre').to('centimetre');
+	var sameResult = convert(100).to('centimetre').from('metre');
 ```
 
 ## Supported units
@@ -36,7 +36,7 @@ Units are being added. Currently the supported units are:
 *UK Imperial*
 
 ```
- uk_foot, uk_thou, uk_inch, uk_yard, uk_chain, uk_furlong, uk_mile, uk_league
+	uk_foot, uk_thou, uk_inch, uk_yard, uk_chain, uk_furlong, uk_mile, uk_league
 ```
 
 
