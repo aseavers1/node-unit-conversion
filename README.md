@@ -25,23 +25,38 @@ You just need to call the module with the value you want converted, then pipe th
 
 Units are being added. Currently the supported units are:
 
-*SI*
-```
-	metre, gram, second, minute, hour, day, year, ampere, candela, mole
-	(with magnitudes - centi, kilo, mega, etc)
+*Length*
 
-	celsius, fahrenheit, kelvin, rankine
-```
+metre ( + magnitudes - eg. centimetre, kilometre, ...),
+uk foot, uk thou, uk inch, uk yard, uk chain, uk furlong, uk mile, uk league
 
-*UK Imperial*
-
-```
-	uk_foot, uk_thou, uk_inch, uk_yard, uk_chain, uk_furlong, uk_mile, uk_league
-```
+*Area*
 
 
-*US Imperial*
+*Volume*
 
-```
-To be implemented
-```
+
+
+*Mass*
+
+gram ( + magnitudes - eg. kilogram, milligram, ...), tonne
+
+*Time*
+
+second ( + magnitudes - eg. millisecond, nanosecond, ...), minute, hour, day, year
+
+*Electric Current*
+
+ampere ( + magnitudes - eg. milliampere, kiloampere, ...)
+
+*Temperature*
+
+celsius, fahrenheit, kelvin, rankine
+
+*Substance*
+
+mole
+
+*Luminous Intensity*
+
+candela

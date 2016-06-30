@@ -53,12 +53,12 @@ module.exports = {
 	},
 
 	'uk-imp-lengths': function(test) {
-		test.equal(convert(10).from('uk_inch').to('uk_foot'), 0.8333333333);
+		test.equal(convert(10).from('uk inch').to('uk foot'), 0.8333333333);
 		test.done();
 	},
 
 	'inter-scale-lengths': function(test) {
-		test.equal(convert(10).from('uk_inch').to('metre'), 0.254);
+		test.equal(convert(10).from('uk inch').to('metre'), 0.254);
 		test.done();
 	}
 }
