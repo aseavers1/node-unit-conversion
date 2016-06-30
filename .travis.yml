@@ -2,7 +2,8 @@ language: nodejs
 node_js:
 - '6'
 before_script:
-- npm install -g nodeunit
+  - npm install -g npm@'>=3'
+  - npm install -g nodeunit
 script: nodeunit
 deploy:
   provider: npm
