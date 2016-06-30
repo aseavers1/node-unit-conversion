@@ -1,5 +1,7 @@
 # overburn/node-unit-conversion
 
+[![Build Status](https://travis-ci.org/overburn/node-unit-conversion.svg?branch=master)](https://travis-ci.org/overburn/node-unit-conversion)
+[![npm version](https://badge.fury.io/js/node-unit-conversion.svg)](https://badge.fury.io/js/node-unit-conversion)
 
 ## Installation
 
