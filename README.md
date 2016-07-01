@@ -13,6 +13,8 @@ npm install node-unit-conversion
 
 ## Usage
 
+**WARNING: The package is still very early in development and there are going to be breaking changes every now and again**
+
 You just need to call the module with the value you want converted, then pipe through the *from* and *to* functions in any order.
 
 ```javascript
@@ -25,38 +27,44 @@ You just need to call the module with the value you want converted, then pipe th
 
 Units are being added. Currently the supported units are:
 
-*Length*
-
+**Length**
+```
 metre ( + magnitudes - eg. centimetre, kilometre, ...),
 uk foot, uk thou, uk inch, uk yard, uk chain, uk furlong, uk mile, uk league
+us point, us pica, us inch, us foot, us yard, us mile,
+us link, us rod, us foot (survey), us rod, us chain, us furlong, us mile (survey), us league,
+us fathom, us cable, us nautical mile
+```
 
-*Area*
+**Mass**
+```
+gram ( + magnitudes - eg. kilogram, milligram, ...), tonne,
 
+us grain, us dram, us ounce, us pound, us hundredweight, us long hundredweight, us ton, us long ton, us pennyweight,
+us troy ounce, us troy pound
+```
 
-*Volume*
-
-
-
-*Mass*
-
-gram ( + magnitudes - eg. kilogram, milligram, ...), tonne
-
-*Time*
-
+**Time**
+```
 second ( + magnitudes - eg. millisecond, nanosecond, ...), minute, hour, day, year
+```
 
-*Electric Current*
-
+**Electric Current**
+```
 ampere ( + magnitudes - eg. milliampere, kiloampere, ...)
+```
 
-*Temperature*
-
+**Temperature**
+```
 celsius, fahrenheit, kelvin, rankine
+```
 
-*Substance*
+**Substance**
+```
+mole ( + magnitudes)
+```
 
-mole
-
-*Luminous Intensity*
-
-candela
+**Luminous Intensity**
+```
+candela ( + magnitudes)
+```

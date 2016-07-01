@@ -1,6 +1,6 @@
 {
   "name": "node-unit-conversion",
-  "version": "0.0.9",
+  "version": "0.1.0",
   "description": "Unit conversion for NodeJS",
   "main": "index.js",
   "scripts": {

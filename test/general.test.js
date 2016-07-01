@@ -57,8 +57,24 @@ module.exports = {
 		test.done();
 	},
 
+	'uk-imp-mass': function(test) {
+		test.equal(convert(10).from('uk grain').to('uk pound'), 0.0014285714);
+		test.done();
+	},
+
+	'us-cust-lengths': function(test) {
+		test.equal(convert(10).from('us foot').to('us inch'), 120);
+		test.done();
+	},
+
+	'us-cust-mass': function(test) {
+		test.equal(convert(10).from('us grain').to('us pound'), 0.0014285714 );
+		test.done();
+	},
+
 	'inter-scale-lengths': function(test) {
 		test.equal(convert(10).from('uk inch').to('metre'), 0.254);
+		test.equal(convert(10).from('us inch').to('metre'), 0.254);
 		test.done();
 	}
 }
