@@ -13,7 +13,7 @@ npm install node-unit-conversion
 
 ## Usage
 
-**WARNING: The package is still very early in development and there are going to be breaking changes every now and again**
+**WARNING: The package is still in development and new units and features will be added in time (as much as time permits)**
 
 You just need to call the module with the value you want converted, then pipe through the *from* and *to* functions in any order.
 
