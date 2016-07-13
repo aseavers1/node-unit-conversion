@@ -76,5 +76,17 @@ module.exports = {
 		test.equal(convert(10).from('uk inch').to('metre'), 0.254);
 		test.equal(convert(10).from('us inch').to('metre'), 0.254);
 		test.done();
+	},
+
+	'incompatible-types': function(test) {
+		test.throws(
+			function() {
+				convert(10).from('uk inch').to('second');
+			},
+			Error,
+			'Cannot convert from length to time'
+		);
+
+		test.done();
 	}
 }
